@@ -87,6 +87,7 @@ public class InvitationController {
         if (rService.add(replay) > 0) {
 //            model.addAttribute("invid", invid);
 //            return "forward:/view";
+            int a = 0;
             return "true";
         }
         return "false";
